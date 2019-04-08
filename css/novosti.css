@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.novosti {
+	background-color: #BA55D3;
+	color: red;
+	width: 100%;
+	height: 60px;
+}
+
+.novosti a {
+	text-decoration: none;
+	margin-left: 160px;
+	font-size: 20px;
+}
+
+.novosti li {
+	margin-right: 10px;
+	padding-top: 15px;
+	display: block;
+	float: left;
+}
+
+.background {
+	width: 100%;
+	height: 820px;
+	background-image: url(../img/apb.jpg);
+	color: #8533ff;
+}
