@@ -110,6 +110,12 @@ hr {
     flex: 1 0 auto;
   }
 
+.block1, .block2 {
+  width: 50%;
+  display: inline-block;
+}
+
 #color {
   background-color: #4dd0e1;
+
 }
