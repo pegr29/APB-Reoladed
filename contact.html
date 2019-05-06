@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
@@ -24,18 +25,31 @@
     <hr />
   </ul>
 </div>
+         <!-- <img src="img/logo.png"> -->
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
           </div>
-
-         <div id="inline">
-<h2>Оставить комментарий</h2>
+            <br>
+            <div class="obr">
+              <h2>Обратная связь</h2>
+                </div>
+ <div id="inline">
 <form id="contact" action="#" method="post" name="contact">
-<input id="name" class="txt" name="name" type="name" placeholder="Ваше имя" />
- <input id="phone" class="txt" name="phone" type="phone" placeholder="Ваш телефон" /> 
-<input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail" /> 
+<input id="name" class="txt" name="name" type="name" placeholder="Ваше имя">
+<input id="phone" class="txt" name="phone" type="phone" placeholder="Ваш телефон"> 
+<input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail"> 
 <textarea id="msg" class="txtarea" name="msg" placeholder="Ваше сообщение:"></textarea>
- <button id="send">Отправить</button>
+<form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LesWqEUAAAAANMUakaojgKLQ3wn3tRihDsiDRKd"></div>
+      <br/>
+<button id="send">Отправить</button>
 </form>
 </div>
+
+      
 
  <div id="karta">
          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A38d627da02b0b9b3c1c1b883fd4436c8549a448f27e5498593aade62782fa73a&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
@@ -69,3 +83,8 @@
             </div>
           </div>
         </footer>
+    
+    </body>
+    <script type="js/contact.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </html>
